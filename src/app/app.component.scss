@@ -1,0 +1,23 @@
+ion-header{
+    ion-title{
+        color: rgb(131, 255, 224);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-color: rgb(25, 238, 220);
+        border-radius: 3vw;
+        font-weight: bolder;
+        border-radius: 34%;
+    }
+}
+
+
+ion-content{
+    --background: rgb(72, 72, 245);
+    border-left: 7px solid rgba(255, 234, 0, 0.826);
+
+    .header{
+        padding:12vw;
+        margin: 9cm;
+        color: aliceblue;
+    }   
+
+}

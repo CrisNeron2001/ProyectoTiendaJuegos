@@ -1,4 +1,10 @@
 ion-content{
-    --background: rgb(204, 204, 250);
+    --background: rgb(72, 72, 245);
     border-left: 7px solid rgba(255, 234, 0, 0.826);
+
+    .header{
+        padding:12vw;
+        margin: 9cm;
+        color: aliceblue;
+    }   
 }
