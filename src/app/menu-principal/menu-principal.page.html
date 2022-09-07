@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> {{ menu }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> {{ menu }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-button size="small" [routerLink]="['/inicio-sesion']">Ingresa</ion-button>
+  </ion-item>
+  <ion-item>
+      <ion-button size="small" color="secondary" [routerLink]="['/juegos']">Juegos</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-button size="small" color="tertiary" [routerLink]="['/pagina-principal']">Inicio</ion-button>
+  </ion-item>
+</ion-content>
