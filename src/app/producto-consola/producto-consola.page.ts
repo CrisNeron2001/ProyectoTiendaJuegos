@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductoConsolaPage implements OnInit {
   usuario: string;
-  constructor() {}
+  
   listaConsola = [{
     img: 'assets/icon/img/PS5.webp',
     nombreJuego: 'PS5',
@@ -21,7 +21,7 @@ export class ProductoConsolaPage implements OnInit {
     nombreConsola:'PS4',
     precio:500000
   }]
-
+  constructor() {}
   ngOnInit() {
     this.usuario = localStorage.getItem('cris');
   }
